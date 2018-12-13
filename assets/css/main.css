@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #F8F8F8;
+  background-color: #F1F1F1;
 }
 
 .bodyHome {
@@ -64,11 +64,12 @@ body {
 }
 
 .navInovia {
-  background: transparent;
+  background-color:rgba(69, 12, 73, 0.2)
 }
 
-.scrolled {
-  background-color: black;
+.scrolled{
+  background-color: #450C49;
+  color:white;
   transition: 0.3s;
 }
 
@@ -78,7 +79,6 @@ body {
 }
 
 .navbar-nav {
-  color: black;
   margin-right: 350px;
 }
 
@@ -139,10 +139,11 @@ header {
 .containerSite {
   padding-top: 3%;
   min-height: 1000px;
+
 }
 
 .btn-link {
-  color: #e5e5e5;
+  color: #595b5b;
   font-size: 20px;
   text-align: left;
   margin-left: 5%;
@@ -162,8 +163,13 @@ header {
 }
 
 .card-header {
-  background: #202020;
+  background: #d8d6d6;
   border-radius: 20px;
+}
+.card-header:hover {
+  background: #e9e7e7;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .card-header:first-child {
@@ -172,23 +178,24 @@ header {
 }
 
 .card-body {
-  background: #202020;
-  color: #e5e5e5;
+  background: #e5e5e5;
+  color: #595b5b;
+
+      box-shadow: 1px 1px 15px #D8D6D6;
 }
 
 .time {
   font-size: 16px;
   ;
-  color: orange;
-  border: 2px orange solid;
+  color: #450C49;
+  border: 2px #450C49 solid;
   padding: 3px;
   border-radius: 10px;
 }
 
-.contourProgramme {
-  border: 2px #450c49 solid;
-  border-top: none;
-  padding: 0px 10px 10px 10px;
+.programmeList {
+
+    box-shadow: 50px 40px 115px rgba(0, 0, 0, 0.2);
 }
 
 .date {
@@ -224,7 +231,7 @@ header {
 }
 
 .navbar-light .navbar-nav .navActive{
-    color: orange;
+    color: #ed8e12;
 }
 
 
@@ -240,7 +247,7 @@ header {
         font-size: 5rem;
         line-height: 50px;
     }
-    
+
     .countdown li span {
   display: block;
   font-size: 2.5rem;
@@ -262,7 +269,7 @@ header {
         font-size: 5rem;
         line-height: 50px;
     }
-    
+
     .countdown li span {
   display: block;
   font-size: 2rem;
@@ -277,4 +284,9 @@ header {
 }
 
 
+}
+#progTab{
+  position: absolute;
+  width:1200px;
+  top:370px;
 }

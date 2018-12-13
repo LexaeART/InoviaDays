@@ -32,3 +32,17 @@ $(function() {
   });
 
 });
+
+$(function() {
+  var link = $("#linkNavbar");
+
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 50) {
+      link.addClass("scrolledLink");
+    } else {
+      link.removeClass("scrolledLink");
+    }
+  });
+
+});
