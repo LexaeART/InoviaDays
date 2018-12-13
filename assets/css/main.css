@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F8F8F8;
+}
+
+.bodyHome {
+  background: url('../images/audience.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bodyHome .container {
+  color: #2A0F46;
+  text-align: center;
+}
+
+.bodyHome h1 {
+  margin-top: 10%;
+  font-weight: bold;
+  line-height: 150px;
+  transform: rotate(-8deg);
+}
+
+.countdown li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.countdown li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.bodyHome button {
+  background: transparent;
+  border: 5px #2A0F46 solid;
+  padding: 10px;
+  color: #2A0F46;
+  transition: 0.7s;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.bodyHome button:hover {
+  background: #2A0F46;
+  color: white;
+}
+
+.bodyHome h1 {
+  font-size: 15rem;
+  margin-bottom: 10%;
+}
+
+.bodyHome .ombrage {
+  text-shadow: 0px 0px 10px black;
+}
+
+.navInovia {
+  background: transparent;
+}
+
+.scrolled {
+  background-color: black;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-item {
+  font-size: 20px;
+  padding-right: 40px;
+}
+
+.navbar-nav {
+  color: black;
+  margin-right: 350px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.navbar-brand {
+  margin-left: 100px;
+}
+
+.nav-tabs .nav-item {
+  width: 50%;
+  border: 0px transparent solid;
+  border-radius: 0px;
+  background: #450c49;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  height: 80px;
+}
+
+.nav-tabs .nav-link {
+  border: 0px transparent solid;
+  border-radius: 0px;
+  padding-top: 2%;
+  color: white;
+  font-family: Oswald, sans-serif;
+}
+
+.nav-tabs .nav-link:hover {
+  border: 0px transparent solid;
+  border-radius: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-tabs .nav-link.active {
+  background: #450c49;
+  border: 0px transparent solid;
+  border-radius: 0px;
+  width: 100%;
+  height: 100%;
+  color: orange;
+}
+
+header {
+  background-image: url('../images/drone.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.containerSite {
+  padding-top: 3%;
+  min-height: 1000px;
+}
+
+.btn-link {
+  color: #e5e5e5;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 80px;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+}
+
+.btn-link:active {
+  text-decoration: none;
+}
+
+.btn-link:focus {
+  text-decoration: none;
+}
+
+.card-header {
+  background: #202020;
+  border-radius: 20px;
+}
+
+.card-header:first-child {
+  border: 0px transparent solid;
+  border-radius: 0px;
+}
+
+.card-body {
+  background: #202020;
+  color: #e5e5e5;
+}
+
+.time {
+  font-size: 16px;
+  ;
+  color: orange;
+  border: 2px orange solid;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.contourProgramme {
+  border: 2px #450c49 solid;
+  border-top: none;
+  padding: 0px 10px 10px 10px;
+}
+
+.date {
+  color: white;
+  font-size: 14px;
+}
+
+.programmeList{
+    margin-bottom: 200px;
+}
+
+.partenaireLogo{
+    background: #450c49;
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.partenaireLogo:hover{
+    transform: scale(1.05);
+    background: #57245b;
+}
+
+.barre{
+    border-right: 2px black solid;
+}
+
+.adresseAll{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .navActive{
+    color: orange;
+}
