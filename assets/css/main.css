@@ -145,7 +145,8 @@ header {
   color: #e5e5e5;
   font-size: 20px;
   text-align: left;
-  margin-left: 80px;
+  margin-left: 5%;
+  white-space: normal;
 }
 
 .btn-link:hover {
