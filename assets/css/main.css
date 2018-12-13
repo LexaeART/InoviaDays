@@ -11,7 +11,10 @@ body {
 .bodyHome {
   background: url('../images/audience.png');
   background-repeat: no-repeat;
+<<<<<<< HEAD
   background-size: cover;
+=======
+>>>>>>> de636e04638a7b8b17c73dd9dad36f921541b865
   overflow: hidden;
 }
 
@@ -216,6 +219,7 @@ header {
 .navbar-light .navbar-nav .navActive{
     color: orange;
 }
+<<<<<<< HEAD
 #inoviaTitle{
 
     margin-top: 10%;
@@ -246,3 +250,57 @@ header {
       margin-bottom: 10%;
   }
 }
+=======
+
+
+@media screen and (min-width: 720px) and (max-width: 1000px) {
+    .bodyHome h1{
+        font-size: 10rem;
+        line-height: 100px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 719px) {
+    .bodyHome h1{
+        font-size: 5rem;
+        line-height: 50px;
+    }
+    
+    .countdown li span {
+  display: block;
+  font-size: 2.5rem;
+}
+
+.countdown li {
+  display: inline-block;
+  font-size: 1.4rem;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+
+}
+
+@media screen and (max-width: 320px) {
+    .bodyHome h1{
+        font-size: 5rem;
+        line-height: 50px;
+    }
+    
+    .countdown li span {
+  display: block;
+  font-size: 2rem;
+}
+
+.countdown li {
+  display: inline-block;
+  font-size: 1.2rem;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+
+}
+>>>>>>> de636e04638a7b8b17c73dd9dad36f921541b865
