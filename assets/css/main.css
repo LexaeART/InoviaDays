@@ -6,6 +6,7 @@
 
 body {
   background-color: #F1F1F1;
+  overflow-x: hidden;
 }
 
 .bodyHome {
@@ -64,7 +65,7 @@ body {
 }
 
 .navInovia {
-  background-color:rgba(69, 12, 73, 0.2)
+  background-color:rgba(69, 12, 73, 1)
 }
 
 .scrolled{
@@ -289,4 +290,25 @@ header {
   position: absolute;
   width:1200px;
   top:370px;
+}
+#footer{
+  background-color: #450C49;
+}
+.imgFoot img{
+  width:100%;
+}
+#makeBy{
+  text-align: center;
+  color: white;
+}
+#makeBy a{
+  text-align: center;
+  color: orange;
+}
+.categoriesFooter{
+  text-align: center;
+  color:white;
+}
+#adresseFoot{
+  color:white;
 }

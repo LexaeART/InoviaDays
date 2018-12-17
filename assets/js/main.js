@@ -16,33 +16,3 @@ let countDown = new Date('Jan 29, 2019 09:00:00').getTime(),
 
 
   }, second)
-
-
-
-$(function() {
-  var header = $(".navInovia");
-
-  $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if (scroll >= 50) {
-      header.addClass("scrolled");
-    } else {
-      header.removeClass("scrolled");
-    }
-  });
-
-});
-
-$(function() {
-  var link = $("#linkNavbar");
-
-  $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if (scroll >= 50) {
-      link.addClass("scrolledLink");
-    } else {
-      link.removeClass("scrolledLink");
-    }
-  });
-
-});
