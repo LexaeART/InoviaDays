@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #F1F1F1;
+  background-color: #d2d4e4;
   overflow-x: hidden;
 }
 
@@ -65,13 +65,7 @@ body {
 }
 
 .navInovia {
-  background-color:rgba(69, 12, 73, 1)
-}
-
-.scrolled{
-  background-color: #450C49;
-  color:white;
-  transition: 0.3s;
+  background-color:#363854;
 }
 
 .navbar-nav .nav-item {
@@ -97,7 +91,7 @@ body {
   width: 50%;
   border: 0px transparent solid;
   border-radius: 0px;
-  background: #450c49;
+  background: #363854;
   text-align: center;
   font-size: 20px;
   color: white;
@@ -120,7 +114,7 @@ body {
 }
 
 .nav-tabs .nav-link.active {
-  background: #450c49;
+  background: #363854;
   border: 0px transparent solid;
   border-radius: 0px;
   width: 100%;
@@ -209,7 +203,7 @@ header {
 }
 
 .partenaireLogo{
-    background: #450c49;
+    background: #404364;
     height: 150px;
     width: 150px;
     margin-right: 10px;
@@ -219,11 +213,11 @@ header {
 
 .partenaireLogo:hover{
     transform: scale(1.05);
-    background: #57245b;
+    background: #6c70a8;
 }
 
 .barre{
-    border-right: 2px black solid;
+    border-right: 2px white solid;
 }
 
 .adresseAll{
@@ -292,7 +286,7 @@ header {
   top:370px;
 }
 #footer{
-  background-color: #450C49;
+  background-color: #363854;
 }
 .imgFoot img{
   width:100%;
@@ -376,7 +370,7 @@ header {
   left: 0;
   right: 0;
   content: '';
-  background-color: #450C49;
+  background-color: #6c70a8;
   opacity: 0.5;
   -webkit-transition: all 0.45s ease;
   transition: all 0.45s ease;
@@ -410,7 +404,7 @@ header {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #450C49;
+  background-color: #6c70a8;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
   content: '';
   opacity: 0.5;
@@ -544,7 +538,7 @@ header {
     left: 0;
     right: 0;
     content: '';
-    background-color: #450C49;
+    background-color: #6c70a8;
     opacity: 0.5;
     -webkit-transition: all 0.45s ease;
     transition: all 0.45s ease;
@@ -578,7 +572,7 @@ header {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #450C49;
+    background-color: #6c70a8;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
     content: '';
     opacity: 0.5;
