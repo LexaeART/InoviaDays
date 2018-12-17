@@ -312,3 +312,13 @@ header {
 #adresseFoot{
   color:white;
 }
+
+ #triangle-bottomright { width: 60%; height: 0px; border-bottom: 400px solid red; border-right: 300px solid transparent; }
+ 
+ #outilEnMain{
+      background-image: url('../images/audience.jpg');
+ }
+
+ .container-fluid{
+     margin: 0;
+ }
