@@ -65,7 +65,7 @@ body {
 }
 
 .navInovia {
-  background-color:#363854;
+  background-color:#f2af59;
 }
 
 .navbar-nav .nav-item {
@@ -226,7 +226,7 @@ header {
 }
 
 .navbar-light .navbar-nav .navActive{
-    color: #ed8e12;
+    color: #363854;
 }
 
 
@@ -302,6 +302,7 @@ header {
 .categoriesFooter{
   text-align: center;
   color:white;
+  font-size: 40px;
 }
 #adresseFoot{
   color:white;
