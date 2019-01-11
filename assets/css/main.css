@@ -12,7 +12,6 @@ body {
 .bodyHome {
   background: url('../images/audience.png');
   background-repeat: no-repeat;
-  overflow: hidden;
 }
 
 .bodyHome .container {
@@ -48,6 +47,7 @@ body {
   transition: 0.7s;
   font-size: 20px;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .bodyHome button:hover {
@@ -133,8 +133,12 @@ header {
 
 .containerSite {
   padding-top: 3%;
-  min-height: 1000px;
+  min-height: 1500px;
+}
 
+.containerSiteInfos {
+  padding-top: 3%;
+  min-height: 1000px;
 }
 
 .btn-link {
@@ -290,6 +294,11 @@ header {
 }
 .imgFoot img{
   width:100%;
+  margin: auto;
+
+}
+.imgFoot{
+  display: flex;
 }
 #makeBy{
   text-align: center;
@@ -329,6 +338,24 @@ header {
 }
 .parallax3{
   background-image: url("../images/livre.jpg");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax4{
+  background-image: url("../images/e2n.jpg");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax5{
+  background-image: url("../images/droneEcole.jpg");
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -658,4 +685,39 @@ header {
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s;
   }
+}
+
+.bandal{
+    height: 100px;
+    width: 100%;
+    background: rosybrown;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bandal p{
+}
+
+.gratos{
+    color: #363854;
+    font-weight: bold;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact p{
+    font-size: 20px;
+}
+
+.affiche img{
+    width: 45%;
+}
+
+.more{
+  color: #363854;
 }
